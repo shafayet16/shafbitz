@@ -52,9 +52,9 @@ export default function Home() {
           {/* ─── PIECE 2: MAIN HERO PANEL (100% Mobile Width Stack) ───────── */}
           <motion.div 
             className="w-full bg-[#faf6ee] p-5 sm:p-6 md:p-10 flex flex-col justify-between min-h-[300px] md:min-h-[340px] border-2 border-[#1c2826] shadow-[4px_4px_0px_0px_#1c2826] md:border-0 md:shadow-none transition-colors duration-300 ease-in-out hover:bg-[#ea9e8d] group"
-            initial={{ opacity: 0, y: 15 }}
+            initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center text-[10px] md:text-[11px] font-bold tracking-wider text-[#1c2826]/60 uppercase gap-1">
               <span>// COMMERCIAL PORTFOLIO & CASE STUDIES</span>
@@ -84,9 +84,9 @@ export default function Home() {
             {/* ─── PIECE 3: STACK & INFO PANEL (100% Mobile Width | 70% Desktop) ─── */}
             <motion.div 
               className="w-full md:col-span-7 bg-[#faf6ee] p-5 sm:p-6 md:p-8 flex flex-col justify-between min-h-[220px] md:min-h-[240px] border-2 border-[#1c2826] shadow-[4px_4px_0px_0px_#1c2826] md:border-0 md:shadow-none transition-colors duration-300 ease-in-out hover:bg-[#ea9e8d] group"
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.1 }}
             >
               <div className="space-y-2 md:space-y-3">
                 <span className="text-[10px] md:text-[11px] font-bold tracking-wider text-[#1c2826]/60 block">
@@ -113,9 +113,9 @@ export default function Home() {
             {/* ─── PIECE 4: CTA DIRECTORY PANEL (100% Mobile Width | 30% Desktop) ─── */}
             <motion.div 
               className="w-full md:col-span-3 bg-[#faf6ee] p-5 sm:p-6 flex flex-col justify-between min-h-[200px] md:min-h-[240px] border-2 border-[#1c2826] shadow-[4px_4px_0px_0px_#1c2826] md:border-0 md:shadow-none transition-colors duration-300 ease-in-out hover:bg-[#ea9e8d] group"
-              initial={{ opacity: 0, y: 15 }}
+              initial={{ opacity: 0, y: 40 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, ease: "easeOut", delay: 0.2 }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: 0.2 }}
             >
               <span className="text-[10px] md:text-[11px] font-bold tracking-wider text-[#1c2826]/60 block">
                 // ACQUISITION

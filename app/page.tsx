@@ -6,44 +6,6 @@ import { motion } from "framer-motion";
 export default function Home() {
   return (
     <div className="min-h-screen bg-[#faf6ee] text-[#1c2826] flex flex-col font-sans selection:bg-[#d64550] selection:text-white relative">
-
-      {/* ─── PIECE 1: NAVIGATION (100% Width) ──────────────────────────── */}
-      <header className="sticky top-0 z-50 border-b-4 border-[#ea9e8d] bg-[#1c2826] text-white">
-        <div className="flex items-center justify-between px-4 md:px-6 py-4 max-w-7xl mx-auto w-full">
-          <Link
-            href="/"
-            className="text-xl md:text-2xl font-black tracking-tighter uppercase"
-          >
-            Shafbitz<span className="text-[#d64550]">.</span>
-          </Link>
-
-          <nav className="hidden md:flex items-center gap-6 md:gap-8 text-xs font-bold uppercase tracking-widest">
-            <Link
-              href="/projects"
-              className="px-2 py-2 transition-colors duration-200 hover:text-[#ea9e8d]"
-            >
-              Projects
-            </Link>
-            <Link
-              href="/blog"
-              className="px-2 py-2 transition-colors duration-200 hover:text-[#ea9e8d]"
-            >
-              Blog
-            </Link>
-            <Link
-              href="/about"
-              className="px-2 py-2 transition-colors duration-200 hover:text-[#ea9e8d]"
-            >
-              About
-            </Link>
-          </nav>
-
-          <button className="md:hidden text-white font-bold text-xs uppercase tracking-widest">
-            Menu
-          </button>
-        </div>
-      </header>
-
       {/* ─── MAIN MANGA MATRIX CONTAINER ───────────────────────────────── */}
       <main className="flex-1 flex items-center justify-center p-4 md:p-8 z-10 my-4 md:my-12">
         {/* Mobile stack uses a transparent gap column. Desktop uses the tight grid framework */}
@@ -173,3 +135,4 @@ export default function Home() {
     </div>
   );
 }
+//fix animation and add sound effects 
